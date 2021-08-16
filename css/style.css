@@ -1,0 +1,406 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+/*	height: 600vh;*/
+}
+
+
+::selection{
+	background-color:#FF62FFFF;
+	color: #fff;
+}
+
+/*navbar styling*/
+#header {
+	height: 50vh;
+	width: 100vw;	/*border: 3px solid black;*/
+	background-image:linear-gradient(90deg,rgb(210 84 183 / 63%) 50%,rgb(210 84 183 / 63%) 50%), url(../img/flower-2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.header_content {
+
+	/*background-color: red;*/
+
+	height: 20vh;
+	width: 54vw;
+}
+
+.header_content h1 {
+	text-align: center;
+	letter-spacing: 0.1rem;
+	margin: 0 0 30px 0;
+	color: #fff;
+}
+
+.header_content p {
+	margin: 0 3rem;
+	line-height: 2rem;
+	letter-spacing: 0.1rem;
+	text-align: center;
+	color: #fff;
+}
+
+/*navbar styling*/
+
+/*about*/
+
+.about {
+	height: 60vh;
+	width: 100vw;
+	/*background-color: red;*/
+	margin: 4rem 0;
+}
+
+.about_header {
+	height: 5vh;
+	width: 100vw;
+	/*background-color: lightcoral;*/
+	margin-top: 5rem;
+}
+
+.about_header h1 {
+	font-size: 2rem;
+	letter-spacing: 0.1rem;
+}
+
+.about_content {
+	height: 35vh;
+	width: 34vw;
+	/*background-color: lightskyblue;*/
+}
+
+.about_img {
+	height: 55vh;
+	width: 23vw;
+	/*background-color: lightgrey;*/
+}
+
+.about_img img {
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	object-fit: cover;
+}
+
+.about_content h2 {
+	margin: 0 0 3rem 0;
+	letter-spacing: 0.1rem;
+	font-size: 2rem;
+}
+
+.about_content p {
+	letter-spacing: 0.1rem;
+	line-height: 2rem;
+}
+
+.about_app{
+	margin-top: 1.9rem;
+
+}
+
+.about_app img{
+cursor: pointer;
+margin-right: 1rem;
+
+}
+
+.down{
+	margin-top: 0.8rem;
+}
+
+
+/*flower styling*/
+
+.flower{
+	height: 70vh;
+	width: 100vw;
+	/*background-color: red;*/
+}
+
+.row{
+	height: 100%;
+	width: 100%;
+		display: flex;
+	align-items: center;
+	justify-content: space-around;
+	/*background-color: cyan;*/
+
+}
+
+.flower_img{
+    height: 100%;
+    width: 23vw;
+    cursor: pointer;
+    /*background-color: blueviolet;*/
+}
+.flower_img img{
+  	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.flower_img:hover.flower_img img{
+
+}
+
+
+#second{
+	margin-top: 2rem
+}
+
+#flowe{
+	margin-bottom: 2rem;
+}
+
+
+/*bar styling*/
+
+
+.bar{
+	height: 45vh;
+	width: 100vw;
+	/*background-color: red;*/
+	margin-top: 10rem;
+	display: flex;
+	background-image: linear-gradient(90deg,rgb(210 84 183 / 63%) 50%,rgb(210 84 183 / 63%) 50%),url(../img/flower-1.jpg);
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+.bar_content{
+    height: 70%;
+    width: 60%;
+    /*background-color: lightskyblue;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bar_content h1{
+      font-size: 2rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    color: #fff;
+}
+
+.bar_content p{
+         letter-spacing: 0.1rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+/*contact styling*/
+
+.contact_sec{
+	height: 30vh;
+	width: 100vw;
+	margin-bottom: 7rem;
+	/*background-color: rebeccapurple;*/
+}
+
+.contact_body{
+	height: 100%;
+	width:100%;
+	/*background-color: saddlebrown;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+.contact_container{
+	height: 100%;
+	width: 30%;
+	/*background-color: lightgreen;*/
+		display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+
+
+.contact_container p{
+text-align: center;
+letter-spacing: 0.1rem;
+line-height: 2rem;
+}
+
+
+
+
+
+
+
+
+
+.contact_container a{
+text-decoration: none;
+background-color: #FF62FFFF;
+padding: 1.5rem 4rem;
+margin-top: 2rem;
+color: #fff;
+border-radius:10px;
+letter-spacing: 0.1rem;
+}
+
+
+footer{
+	height: 8vh;
+	width: 100vw;
+	background-color:#FF62FFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+footer p{
+color: #ffff;
+letter-spacing: 0.1rem;
+text-align: center;
+}
+
+
+
+
+
+footer a{
+color: #ffff;
+letter-spacing: 0.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

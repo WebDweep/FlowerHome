@@ -1,0 +1,25 @@
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center_col {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.devider {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+.devider_cor {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
